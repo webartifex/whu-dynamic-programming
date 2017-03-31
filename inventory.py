@@ -28,6 +28,9 @@ except ImportError:
 class InventoryDP:
     """A dynamic programming solution to an inventory decision problem.
 
+	This program assumes that the decision maker first places an order
+	and then gets to know the realized demand.
+
     Parameters
     ----------
     time_horizon : integer
